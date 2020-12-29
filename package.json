@@ -1,6 +1,6 @@
 {
   "name": "filewatcher-cli",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "watch files and take actions on changes",
   "main": "index.js",
   "author": "Sokrato <sokrato@outlook.com>",
@@ -11,5 +11,10 @@
   ],
   "repository": "https://github.com/sokrato/filewatcher-cli",
   "private": false,
-  "dependencies": {}
+  "bin": {
+    "filewatcher": "./bin/cli.js"
+  },
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
 }
